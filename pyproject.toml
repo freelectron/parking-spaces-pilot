@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "parking-spaces"
+version = "0.1.0"
+description = "An application for comparing average pixel values in image regions"
+authors = ["User"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+Pillow = "^10.2.0"
+numpy = "^1.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
